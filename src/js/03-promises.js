@@ -24,8 +24,7 @@ function showPromise(e) {
   e.preventDefault();
   
   const { elements: { amount, delay, step } } = e.currentTarget;
-  console.log(e.currentTarget.step.value);
-  
+    
  let currentAmount = e.currentTarget.amount.value;
   let startDelay = Number(e.currentTarget.delay.value);
   let delayStep = Number(e.currentTarget.step.value);
